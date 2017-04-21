@@ -8,9 +8,13 @@ function isLucky(n) {
     var array = (n + "").split("").map(x => +x);
     var sumFirst = 0;
     var sumSecond = 0;
-    for (var i = 0; i < array.length / 2; i++)
+    for (var i = 0; i < array.length / 2; i++) {
         sumFirst += array[i];
-    for (var j = array.length / 2; j < array.length; j++)
+    }
+
+    for (var j = array.length / 2; j < array.length; j++) {
         sumSecond += array[j];
+    }
+
     return sumFirst === sumSecond;
 }
