@@ -1,3 +1,4 @@
+/* Return true if the sum of first half digits of number === sum of second half digits of number. */
 var n = 1230;
 var k = 123456;
 

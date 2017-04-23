@@ -1,3 +1,4 @@
+/* Reverse words in parentheses. */
 var string = "(a(bc)de)";
 console.log(reverseParentheses(string));
 

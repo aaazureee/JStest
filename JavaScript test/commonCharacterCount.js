@@ -1,3 +1,4 @@
+/* Return number of common chars between 2 strings. */
 var s1 = "fuck";
 var s2 = "fuckfuck";
 s1.split("");
